@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ctf"
+version = "0.1.0"
+description = ""
+authors = ["hashimoto <ryuichi.hashimoto.git@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+pefile = "^2024.8.26"
+yara-python = "^4.5.1"
+capstone = "3.0.5"
+pycryptodome = "^3.21.0"
+leechcorepyc = "2.4.0"
+gcsfs = "2023.1.0"
+s3fs = "2023.1.0"
+tqdm = "^4.67.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
