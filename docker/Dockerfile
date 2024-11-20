@@ -50,21 +50,4 @@ poetry config virtualenvs.in-project true
 
 
 #CMD
-
-
-
-## install tool
-### memory forensic
-RUN git clone https://github.com/volatilityfoundation/volatility3.git /home/work/tool/volatility3
-# RUN git clone https://github.com/volatilityfoundation/volatility.git /home/work/tool/volatility2
-
-### diskforensic
-RUN git clone https://github.com/unode/firefox_decrypt.git /home/work/tool/firefox_decrypt
-
-### 
-RUN git clone https://github.com/lvaccaro/truecrack.git /home/work/tool/truecrack
-
 CMD ["bash"]
-
-
-403  cd TrueSecrets/wget https://launchpad.net/veracrypt/trunk/${VERACRYPT_VERSION}/+download/veracrypt-${VERACRYPT_VERSION}-setup-console-x64 
