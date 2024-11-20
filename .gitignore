@@ -1,0 +1,10 @@
+.cache/
+.local/
+.vscode-server/
+.dotnet/
+.ssh/
+.bash_history
+*.evtx
+.python_history
+.viminfo
+.wget-hsts
